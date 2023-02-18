@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya Kanadaka:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+
+
+
+
+.second{
+    width: auto;
+    height: auto;
+    margin-top: -55px;
+  }
+.reserve{
+  margin-top: -65px;
+  }
+
+  .mère{
+    width: 100vw ;
+    height: 100vh;
+  background-color: white;
+  }
+
+  h1{
+  font-family: 'Akaya Kanadaka', sans-serif;
+  align-items: center;
+  text-align: center;
+  color: rgba(11, 121, 248, 1);
+  font-size: 30px;
+  }
+  h4{
+  font-family: Akaya Kanadaka;
+  align-items: center;
+  text-align: center;
+  color: rgba(11, 121, 248, 1);
+  margin-left: 10px;
+  }
+  
+   
+  .infos{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .infolieu{
+    display:flex;
+    color: rgba(11, 121, 248, 1);
+    font-size: 22px;
+  }
+  .fa-solid{
+    margin-left: 15px;
+    font-size: 22px;
+    margin-top: 30px;
+  }
+  .infolieu p{
+    color: #616F8D;
+    font-family: Akaya Kanadaka;
+    margin-top: -3px;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
+  .carousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .carousel img{
+    height:auto;
+    width: auto;
+    margin-left: -10px;
+   }
+
+  .carousel :link{
+    text-decoration: none;
+    color: #616F8D;
+
+  }
+
+  h3{
+    text-decoration: none;
+    margin-left: -100px;
+    font-family: 'Akaya Kanadaka';
+    font-size: 30px;
+    color: rgba(11, 121, 248, 1);
+  }
+
+  .fa-sharp{
+    display: inline-block;
+    font-size: 40px;
+    margin-top: 28px;
+    margin-left: -75px;
+    color: rgba(11, 121, 248, 1);
+  }
+
+  .ordonnance{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+  }
+
+  .ordonnance p{
+    font-family: 'Akaya Kanadaka';
+    margin-right: 70px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #616F8D;
+  }
+
+  
+  

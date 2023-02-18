@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya Kanadaka:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+
+.livreur{
+    height: 90vh;
+    width: 100%;
+  }
+
+.btn {
+  display: inline-block;
+  position: absolute;
+  padding: 15px 40px;
+  background-color: #ffff;
+  border: 2px solid #216ce7;
+  color: #216ce7;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 100px;
+  transition: all 0.2s;
+  margin-top: 580px;
+  margin-left: -320px;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: #216ce7;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+  background-color: #216ce7;
+}
+
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+  background-color: #216ce7;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .livreur{
+    height: 80vh;
+    width: 70%;
+    margin-left: 80px;
+    z-index: 2;
+  }
+  .btn {
+    display: inline-block;
+    position: absolute;
+    padding: 15px 40px;
+    background-color: #ffff;
+    border: 2px solid #216ce7;
+    color: #216ce7;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: all 0.2s;
+    margin-top:460px;
+    margin-left: -280px;
+  }
+  
+    
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: #216ce7;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+  background-color: #216ce7;
+}
+
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+  background-color: #216ce7;
+
+}
+    
+}

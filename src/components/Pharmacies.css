@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya Kanadaka:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+
+img {
+  height: 110px;
+  width: 140px;
+  margin-block: 10px;
+}
+
+.boximg h2{
+  height: 70px;
+  width: 500px;
+  margin-top: 75px;
+  margin-left: 50px;
+}
+
+.boxspan {
+  width: auto;
+  height: auto;
+  border: none;
+  margin-top: 25px;
+}
+.boxspan .texte {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+.boxspan .texte a {
+  text-decoration: none;
+}
+.smallbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 350px;
+  height: auto;
+  margin-top: 15px;
+  margin-left: 120px;
+  border-radius: 10px 10px 10px 10px;
+  border: 1px solid #0B79F8;
+  box-shadow: 2px 2px 2px #0B79F8;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  img {
+    height: 100px;
+    width: 150px;
+    margin-block: 10px;
+  }
+  
+  .boximg h2{
+    height: 70px;
+    width: 500px;
+    margin-top: 55px;
+  }
+  
+  .boxspan {
+    height: 100px;
+  }
+  .boxspan .texte {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .boxspan .texte a {
+    text-decoration: none;
+  }
+  .smallbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 300px;
+    height: auto;
+    margin-left: 130px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #0B79F8;
+    box-shadow: 2px 2px 2px #94c3f8;
+  }
+
+}

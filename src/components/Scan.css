@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya Kanadaka:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+
+
+.Scan{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+.Scan h2{
+  font-size: 25px;
+  font-family: 'Akaya Kanadaka', sans-serif;
+  color: rgba(11, 121, 248, 1);
+
+}
+.scanner{
+  position: relative;
+  height: 250px;
+  width: 350px;
+}
+.scanner img{
+  position: relative;
+  height: 460px;
+  width: 350px;
+  margin-top: -120px;
+}
+.btn-telecharger{
+  color: white;
+  text-decoration: none;
+  font-size: 1vw;
+}
+       
+.buttons_tiquet{
+  font-size: 18px;
+  font-family: Nunito, sans-serif;
+  font-weight: 100;
+  color: white;
+  word-wrap: break-word;
+  width: 10vw;
+  height: 6vh;
+  background-color: rgba(11, 121, 248, 1);
+  border-radius: 15vw ;
+  margin-bottom: 15px;
+  border: none;
+}
+.buttons_tiquet a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.5vw;
+}
+.fa-arrow-left{
+  color: white;
+  margin-left: -10px;
+  margin-top: -100px;
+  background-color: rgba(11, 121, 248, 1);
+}
+      
+
+
+@media only screen and (max-width: 600px) {
+
+.Scan{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+.Scan h2{
+  font-size: 30px;
+  font-family: 'Akaya Kanadaka', sans-serif;
+  color: rgba(11, 121, 248, 1);
+
+}
+.scanner{
+  position: relative;
+  height: 250px;
+  width: 350px;
+}
+.scanner img{
+  position: relative;
+  height: 460px;
+  width: 350px;
+  margin-top: -120px;
+}
+.btn-telecharger{
+  color: white;
+  text-decoration: none;
+  font-size: 6vw;
+  display: block;
+  border: none;
+  text-decoration-line: none;
+}
+       
+.buttons_tiquet{
+  font-size: 38px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  color: white;
+  word-wrap: break-word;
+  width: 60vw;
+  height: 6vh;
+  background-color: rgba(11, 121, 248, 1);
+  border-radius: 15vw ;
+  margin-bottom: 30px;
+  border: none;
+  text-decoration: none;
+}
+.buttons_tiquet a{
+  color: white;
+  text-decoration: none;
+  font-size: 6vw;
+}
+.fa-arrow-left{
+  color: white;
+  margin-left: -10px;
+  margin-top: -100px;
+  background-color: rgba(11, 121, 248, 1);
+}
+      
+
+}

@@ -1,0 +1,462 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya Kanadaka:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+
+
+    .para{
+        font-family: 'Akaya Kanadaka', cursive;
+        font-weight: 400;
+        height: 1550px;
+        background-color: white;
+       }
+
+      .medoc{
+        width:100%;
+        height: 120px;
+        align-items:center;
+        flex-direction: column;
+        display:flex;
+        background-color: white;
+        margin-top: -55px;
+      }
+      .medoc p{
+        font-size: 25px;
+        margin-top: 80px;
+        font-weight: 600;
+        font-family: 'Akaya Kanadaka', sans-serif;
+        color: #0B79F8;
+
+      }
+      
+      .fa-arrow-left-long {
+        display: inline-block;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-left: 25px;
+        color: #0B79F8;
+      }
+      .fa-basket-shopping {
+        display: inline-block;
+        font-size: 30px;
+        margin-top: 16px;
+        margin-left: 1180px;
+        color: #0B79F8;
+      }
+      
+      .boxspa{
+        border-radius:  10px 10px 10px 10px;
+        border: 1px solid #0B79F8;
+        height: auto;
+        width: 210px;
+        margin-left: 18px;
+        font-family: 'Akaya Kanadaka', sans-serif;
+      }
+      .boxspa h3{
+        font-size: 18px;
+        margin-left: 10px;
+        font-family: 'Akaya Kanadaka', sans-serif;
+      }
+      .boxspan h3{
+        font-size: 15px;
+        font-family: 'Akaya Kanadaka', sans-serif;
+        color: #0B79F8;
+      }
+      .boxspan p{
+        font-size: 13px;
+        font-family: 'Akaya Kanadaka', sans-serif;
+        color: #0B79F8;
+        text-align: justify;
+      }
+     .smallbox1{
+        display: flex;
+        flex-direction: column;
+        width: 1300px;
+        height: auto;
+        align-items: center;
+        text-align: center;
+        border-radius:  10px 10px 10px 10px;
+        border: 1px solid #0B79F8;
+        box-shadow: 2px 2px 2px #0B79F8;
+      }
+     .smallbox1 h3{
+       align-items: center;
+       text-align: center;
+       margin-left: 5px;
+      }
+     .smallbox1 img{
+      height: 200px;
+      width: auto;
+      }
+      .texte1{
+        display: block;
+        margin-left: 85px;
+        margin-top: -35px;
+        text-decoration: none;
+        border-style: none;
+        color: #0B79F8;
+        font-size: large;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        justify-content: space-around;
+      }
+  
+      .boximg1{
+        margin-top: 5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100vh ;
+        margin-left: 20px;
+    
+      }
+     .boxspan{
+        width:80%;
+        height: 90px;
+        margin-left: 5px;
+        border-radius:  10px 10px 10px 10px;
+        border: 1px solid #0B79F8;
+      } 
+     .boxspane{
+        width:80%;
+        height: 120px;
+        margin-left: 30px;
+        border-radius:  10px 10px 10px 10px;
+        border: 1px solid #0B79F8;
+      } 
+     
+      .boxspane h3{
+        font-size: 18px;
+        font-family: 'Akaya Kanadaka', sans-serif;
+        color: #0B79F8;
+        margin-left: 15px;
+        margin-top: 2px;
+      }
+      .boxspane p{
+        font-size: 13px;
+        font-family: 'Akaya Kanadaka', sans-serif;
+        color: #0B79F8;
+        text-align: justify;
+      }
+     .boxspan1{
+        width:60%;
+        height: 120px;
+        margin-left: 20px;
+        border-radius:  10px 10px 10px 10px;
+        border: 1px solid #0B79F8;
+      } 
+      
+      .boxspan1 h3{
+        font-size: 18px;
+        font-family: 'Akaya Kanadaka', sans-serif;
+        color: #0B79F8;
+        margin-left: 15px;
+      }
+      .boxspan1 p{
+        font-size: 13px;
+        font-family: 'Akaya Kanadaka', sans-serif;
+        color: #0B79F8;
+        text-align: justify;
+      }
+      .boxspan2{
+        width:80%;
+        height: 120px;
+        margin-left: 30px;
+        border-radius:  10px 10px 10px 10px;
+        border: 1px solid #0B79F8;
+      }
+      .boxspan2 h3{
+        font-size: 18px;
+        font-family: 'Akaya Kanadaka', sans-serif;
+        color: #0B79F8;
+        margin-left: 15px;
+      }
+      .boxspan2 p{
+        font-size: 13px;
+        font-family: 'Akaya Kanadaka', sans-serif;
+        color: #0B79F8;
+        text-align: justify;
+      }
+      .boxspan3{
+        width:80%;
+        height: 130px;
+        margin-left: 30px;
+        border-radius:  10px 10px 10px 10px;
+        border: 1px solid #0B79F8;
+      }
+      .boxspan3 h3{
+        font-size: 18px;
+        margin-left: 15px;
+        margin-top: -0.2px;
+        font-family: 'Akaya Kanadaka', sans-serif;
+        color: #0B79F8;
+      }
+      .boxspan3 p{
+        font-size: 13px;
+        font-family: 'Akaya Kanadaka', sans-serif;
+        color: #0B79F8;
+        text-align: justify;
+      }
+      
+      .advil{
+        height: 150px;
+        width: 80px;
+        margin-left: 18px;
+      }
+      .camilia{
+        height: 150px;
+        width: 120px;
+      }
+      .coq{
+        height: 100px;
+        width: 130px;
+      }
+      .humex{
+        height: 120px;
+        width: 120px;
+        margin-left: 15px;
+      }
+      .maxi{
+        height: 100px;
+        width: 120px;
+        margin-left: 15px;
+      }
+      .sandoz{
+        height: 80px;
+        width: 100px;
+        margin-top: 15px;
+        margin-left: 15px;
+      }
+      .fa-cart-plus{
+        display: inline-block;
+        font-size: 25px;
+      }
+     
+
+@media only screen and (max-width: 600px){
+    .para{
+        font-family: 'Akaya Kanadaka', cursive;
+        font-weight: 400;
+        height: 1550px;
+        background-color: white;
+       }
+
+      .medoc{
+        width:100%;
+        height: 120px;
+        align-items:center;
+        flex-direction: column;
+        display:flex;
+        background-color: white;
+        margin-top: -55px;
+      }
+      .medoc p{
+        font-size: 25px;
+        margin-top: 80px;
+        font-weight: 600;
+        font-family: 'Akaya Kanadaka', sans-serif;
+        color: #0B79F8;
+
+      }
+      
+      .fa-arrow-left-long {
+        display: inline-block;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-left: 25px;
+        color: #0B79F8;
+      }
+      .fa-basket-shopping {
+        display: inline-block;
+        font-size: 30px;
+        margin-top: 16px;
+        margin-left: 280px;
+        color: #0B79F8;
+      }
+      
+      .boxspa{
+        border-radius:  10px 10px 10px 10px;
+        border: 1px solid #0B79F8;
+        height: auto;
+        width: 210px;
+        margin-left: 18px;
+        font-family: 'Akaya Kanadaka', sans-serif;
+      }
+      .boxspa h3{
+        font-size: 18px;
+        margin-left: 10px;
+        font-family: 'Akaya Kanadaka', sans-serif;
+      }
+      .boxspan h3{
+        font-size: 15px;
+        font-family: 'Akaya Kanadaka', sans-serif;
+        color: #0B79F8;
+      }
+      .boxspan p{
+        font-size: 13px;
+        font-family: 'Akaya Kanadaka', sans-serif;
+        color: #0B79F8;
+        text-align: justify;
+      }
+     .smallbox1{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: auto;
+        align-items: center;
+        text-align: center;
+        border-radius:  10px 10px 10px 10px;
+        border: 1px solid #0B79F8;
+        box-shadow: 2px 2px 2px #0B79F8;
+      }
+     .smallbox1 h3{
+       align-items: center;
+       text-align: center;
+       margin-left: 5px;
+      }
+     .smallbox1 img{
+      height: 200px;
+      width: auto;
+      }
+      .texte1{
+        display: block;
+        margin-left: 85px;
+        margin-top: -35px;
+        text-decoration: none;
+        border-style: none;
+        color: #0B79F8;
+        font-size: large;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        justify-content: space-around;
+      }
+  
+      .boximg1{
+        margin-top: 5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100vh ;
+        margin-left: 20px;
+    
+      }
+     .boxspan{
+        width:80%;
+        height: 90px;
+        margin-left: 5px;
+        border-radius:  10px 10px 10px 10px;
+        border: 1px solid #0B79F8;
+      } 
+     .boxspane{
+        width:80%;
+        height: 120px;
+        margin-left: 30px;
+        border-radius:  10px 10px 10px 10px;
+        border: 1px solid #0B79F8;
+      } 
+     
+      .boxspane h3{
+        font-size: 18px;
+        font-family: 'Akaya Kanadaka', sans-serif;
+        color: #0B79F8;
+        margin-left: 15px;
+        margin-top: 2px;
+      }
+      .boxspane p{
+        font-size: 13px;
+        font-family: 'Akaya Kanadaka', sans-serif;
+        color: #0B79F8;
+        text-align: justify;
+      }
+     .boxspan1{
+        width:60%;
+        height: 120px;
+        margin-left: 20px;
+        border-radius:  10px 10px 10px 10px;
+        border: 1px solid #0B79F8;
+      } 
+      
+      .boxspan1 h3{
+        font-size: 18px;
+        font-family: 'Akaya Kanadaka', sans-serif;
+        color: #0B79F8;
+        margin-left: 15px;
+      }
+      .boxspan1 p{
+        font-size: 13px;
+        font-family: 'Akaya Kanadaka', sans-serif;
+        color: #0B79F8;
+        text-align: justify;
+      }
+      .boxspan2{
+        width:80%;
+        height: 120px;
+        margin-left: 30px;
+        border-radius:  10px 10px 10px 10px;
+        border: 1px solid #0B79F8;
+      }
+      .boxspan2 h3{
+        font-size: 18px;
+        font-family: 'Akaya Kanadaka', sans-serif;
+        color: #0B79F8;
+        margin-left: 15px;
+      }
+      .boxspan2 p{
+        font-size: 13px;
+        font-family: 'Akaya Kanadaka', sans-serif;
+        color: #0B79F8;
+        text-align: justify;
+      }
+      .boxspan3{
+        width:80%;
+        height: 130px;
+        margin-left: 30px;
+        border-radius:  10px 10px 10px 10px;
+        border: 1px solid #0B79F8;
+      }
+      .boxspan3 h3{
+        font-size: 18px;
+        margin-left: 15px;
+        margin-top: -0.2px;
+        font-family: 'Akaya Kanadaka', sans-serif;
+        color: #0B79F8;
+      }
+      .boxspan3 p{
+        font-size: 13px;
+        font-family: 'Akaya Kanadaka', sans-serif;
+        color: #0B79F8;
+        text-align: justify;
+      }
+      
+      .advil{
+        height: 150px;
+        width: 80px;
+        margin-left: 18px;
+      }
+      .camilia{
+        height: 150px;
+        width: 120px;
+      }
+      .coq{
+        height: 100px;
+        width: 130px;
+      }
+      .humex{
+        height: 120px;
+        width: 120px;
+        margin-left: 15px;
+      }
+      .maxi{
+        height: 100px;
+        width: 120px;
+        margin-left: 15px;
+      }
+      .sandoz{
+        height: 80px;
+        width: 100px;
+        margin-top: 15px;
+        margin-left: 15px;
+      }
+      .fa-cart-plus{
+        display: inline-block;
+        font-size: 25px;
+      }
+     
+}

@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya Kanadaka:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+
+body {
+  display: grid;
+  place-items: center;
+  margin: 0;
+  padding: 0 24px;
+  background-image: url("../assets/blob-scene-haikei.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: pan 6s infinite alternate linear;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+h2 {
+  align-items: center;
+  text-align: center;
+  color: #216ce7;
+}
+
+.formulaire {
+  margin-top: 100px;
+}
+
+.inscription {
+  margin-top: -50px;
+  flex-direction: row;
+}
+.textbox {
+  position: relative;
+}
+
+.textbox input {
+  width: 260px;
+  height: 64px;
+  border-radius: 6px;
+  background: transparent;
+  border: 1px solid #df2666;
+  padding: 0 20px 0 56px;
+  font-size: 17px;
+  font-family: inherit;
+  color: rgb(255 255 255 / 96%);
+  outline: none;
+}
+
+.textbox input:focus ~ .icon {
+  opacity: 1;
+}
+
+.textbox input::placeholder {
+  color: rgb(133, 117, 117);
+}
+
+.textbox input:valid {
+  border-color: #26dfae;
+  color: #216ce7;
+}
+
+.textbox input:valid,
+.textbox input:valid ~ :is(.asterix, .icon) {
+  animation: none;
+}
+
+.textbox :is(input:valid) ~ .asterix {
+  opacity: 0;
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    translate: 0;
+  }
+  25% {
+    translate: 8px 0;
+  }
+  75% {
+    translate: -8px 0;
+  }
+}
+
+.textbox .asterix {
+  position: absolute;
+  top: 21px;
+  right: 20px;
+  font-size: 22px;
+  pointer-events: none;
+  color: #df2666;
+}
+
+.textbox .icon {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  margin-top: -12px;
+  opacity: 0.5;
+}
+
+.textbox input,
+.textbox .icon,
+.textbox .asterix {
+  animation: shake 0.1635s 0s 3;
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  background: transparent;
+  width: 13rem;
+  height: auto;
+}
+
+button .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #1a99fd;
+  border-radius: 1.625rem;
+  margin-left: 60px;
+}
+
+button .arrow_icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+
+button .arrow_icon::before {
+  position: absolute;
+  content: "";
+  top: -0.25rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+}
+
+button .button_text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  inset: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  margin-left: 110px;
+}
+
+button:hover .circle {
+  width: 100%;
+}
+
+button:hover .arrow_icon {
+  background: #fff;
+  transform: translate(1rem, 0);
+}
+
+@media only screen and (max-width: 600px) {
+  button .circle {
+    width: 100%;
+  }
+  body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0 24px;
+    background: #D6DBFE;
+    animation: pan 6s infinite alternate linear;
+  }
+  
+  
+  
+  }
+  
+  
